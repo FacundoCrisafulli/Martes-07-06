@@ -76,8 +76,12 @@
     background-color: transparent;
     border: solid black 0.3rem;
     border-radius: 0.5rem;
+    transition: all 1s;
  }
 
+ button:hover{
+     transform: scale(1.2);
+ }
 
  /* ---------------------------HEADER--------------------------- */
 
@@ -112,6 +116,11 @@ header nav ul li{
     list-style-type: none;
     display: inline-block; 
     font-weight: lighter;
+    transition: all 1s;
+}
+
+header nav ul li:hover{
+    transform: scale(1.2);
 }
 
 
@@ -226,9 +235,12 @@ footer{
 
 footer li{
     display: inline-block;
-    
+    transition: all 1s;
 }
 
+footer li:hover{
+    transform: scale(1.2);
+}
 
     
 }
