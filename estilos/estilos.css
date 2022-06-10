@@ -59,7 +59,7 @@
     text-decoration: none;
     font-size: 2rem;
     font-weight: 500;
-    color: rgb(228, 199, 155);
+    color: white;
     cursor: pointer;
  }
 
@@ -91,7 +91,7 @@ header{
 }
 
 h1{
-    color: rgb(228, 199, 155);
+    color: white;
     font-weight: 600;
     font-size: 3rem;
 }
@@ -105,6 +105,9 @@ header section{
     align-items: center;
 }
 
+.black{
+    background-color: black;
+}
 
 
 header nav ul {
@@ -224,6 +227,11 @@ figcaption{
     display: flex;
     flex-direction: column;
     padding: 3rem;
+}
+
+.divMainSecciones{
+    background-color: rgb(224, 189, 137);
+    height: 92vh;
 }
 
 /* ---------------------------FOOTER--------------------------- */
