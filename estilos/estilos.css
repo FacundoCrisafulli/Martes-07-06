@@ -59,7 +59,7 @@
     text-decoration: none;
     font-size: 2rem;
     font-weight: 500;
-    color: white;
+    color: rgb(228, 199, 155);
     cursor: pointer;
  }
 
@@ -91,7 +91,7 @@ header{
 }
 
 h1{
-    color: white;
+    color: rgb(228, 199, 155);
     font-weight: 600;
     font-size: 3rem;
 }
@@ -107,6 +107,10 @@ header section{
 
 .black{
     background-color: black;
+}
+
+#colorA{
+    color: rgb(228, 199, 155);
 }
 
 
@@ -192,6 +196,10 @@ figcaption{
     font-family: 'Nunito Sans', sans-serif;
 }
 
+#buttonMain{
+    color: black;
+}
+
 .divMain2{
     display: flex;
     flex-direction: column;
@@ -250,6 +258,9 @@ footer li:hover{
     transform: scale(1.2);
 }
 
+#footer{
+    color: rgb(228, 199, 155);
+}
     
 }
 
