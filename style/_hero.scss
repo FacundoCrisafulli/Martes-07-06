@@ -1,0 +1,32 @@
+.hero{
+    background: url(../img/FondoDeHero.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 92vh;
+    color: black;
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.h2Hero{
+    color: rgb(228, 199, 155);
+    padding-top: 2rem;
+}
+
+.pHero{
+    color: rgb(228, 199, 155);
+    padding: 1rem 1rem 2.5rem 1rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 155rem;
+}
+
+#buttonHero{
+    color: rgb(230, 184, 116);
+}

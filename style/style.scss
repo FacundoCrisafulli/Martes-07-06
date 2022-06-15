@@ -1,3 +1,9 @@
+@import "general";
+@import "nav";
+@import "hero";
+@import "main";
+@import "footer";
+
 /* ---------------------------FUENTE--------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;700;800;900&display=swap');
@@ -24,21 +30,6 @@
  }
 
  /* ---------------------------GENERAL--------------------------- */
-
- *{
-    padding: 0;
-    margin: 0;
- }
-
- html{
-    font-size: 62.5%;
-    box-sizing: border-box;
- }
-
- body{
-    font-size: 2rem;
-    font-family: 'Nunito Sans', sans-serif;
- }
 
  #grilla{
     width: 100%;
@@ -82,185 +73,6 @@
  button:hover{
      transform: scale(1.2);
  }
-
- /* ---------------------------HEADER--------------------------- */
-
-header{
-    background-color: black;
-    padding: 2rem;
-}
-
-h1{
-    color: rgb(228, 199, 155);
-    font-weight: 600;
-    font-size: 3rem;
-}
-
-header section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 155rem;
-    align-items: center;
-}
-
-.black{
-    background-color: black;
-}
-
-#colorA{
-    color: rgb(228, 199, 155);
-}
-
-
-header nav ul {
-    display: flex;
-    gap: 2rem;
-}
-
-header nav ul li{
-    list-style-type: none;
-    display: inline-block; 
-    font-weight: lighter;
-    transition: all 1s;
-}
-
-header nav ul li:hover{
-    transform: scale(1.2);
-}
-
-
-/* ---------------------------HERO---------------------------  */
-
-.hero{
-    background: url(../img/FondoDeHero.jpg);
-    background-size: cover;
-    background-position: top;
-    height: 92vh;
-    color: black;
-    font-size: 1.5rem;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-
-}
-
-.h2Hero{
-    color: rgb(228, 199, 155);
-    padding-top: 2rem;
-}
-
-.pHero{
-    color: rgb(228, 199, 155);
-    padding: 1rem 1rem 2.5rem 1rem;
-    font-size: 2.2rem;
-    font-weight: 500;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 155rem;
-}
-
-#buttonHero{
-    color: rgb(230, 184, 116);
-}
-
-/* ---------------------------MAIN--------------------------- */
-
-main form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(224, 189, 137);
-    height: 92vh;
-}
-
-
-.imgMain{
-    border: 1.5rem inset rgb(145, 39, 39);
-    border-radius: 1rem;
-    margin: auto;
-    margin-bottom: 0rem;
-}
-
-figure{
-    display: flex;
-    flex-direction: column;
-}
-
-figcaption{
-    font-size: 1.7rem;
-    padding: 1rem 0rem 2rem 10rem;
-    font-family: 'Nunito Sans', sans-serif;
-}
-
-#buttonMain{
-    color: black;
-}
-
-.divMain2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.pMain{
-    padding: 1rem 0;
-    font-size: 2.2rem;
-}
-
-.h2Main{ 
-    display: flex;
-    font-size: 2.7rem;
-    font-weight: 650;
-    height: 12rem;
-    padding-top: 2rem;
-}
-
-.videoDeComoHacerPan{ 
-    margin: auto;
-    border: 2rem groove rgb(145, 39, 39);
-    border-radius: 1rem;
-
-    width: auto;
-    height: 28.2rem;
-} 
-
-.divMain{
-    background-color: rgb(224, 189, 137);
-    display: flex;
-    flex-direction: column;
-    padding: 3rem;
-}
-
-.divMainSecciones{
-    background-color: rgb(224, 189, 137);
-    height: 92vh;
-}
-
-/* ---------------------------FOOTER--------------------------- */
-
-footer{
-    background-color: black;
-    padding: 2.5rem 2rem 2.5rem 2rem;
-}
-
-footer li{
-    display: inline-block;
-    transition: all 1s;
-}
-
-footer li:hover{
-    transform: scale(1.2);
-}
-
-#footer{
-    color: rgb(228, 199, 155);
-}
     
 }
 
@@ -364,4 +176,3 @@ footer li:hover{
         padding-top: 0;
     }
 }
-
