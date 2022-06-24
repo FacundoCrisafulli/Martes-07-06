@@ -233,6 +233,35 @@ footer li:hover {
   color: #e4c79b;
 }
 
+/* mapas */
+.btn--MainUno {
+  background-color: #55aCee;
+}
+
+.btn--MainDos {
+  background-color: #3a5795;
+}
+
+/* extend */
+.cambiosH2, .cambiosH2--Uno, .cambiosH2--Dos {
+  background-color: #ad800d;
+  border: 1rem solid #0808f5;
+}
+
+.cambiosH2--Uno {
+  border-radius: 0.7rem;
+}
+
+.cambiosH2--Dos {
+  border: 0.5rem dashed #d81313;
+}
+
+/* mixin */
+.mi_mixin {
+  font-size: 3rem;
+  color: white;
+}
+
 /* ---------------------------FUENTE--------------------------- */
 /*________________________________MOBILE SMARTPHONE________________________________*/
 @media (min-width: 600px) {

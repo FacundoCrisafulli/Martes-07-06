@@ -1,0 +1,41 @@
+/* mapas */
+
+$botones: ( 
+    MainUno:#55aCee,
+    MainDos:#3a5795,
+
+);
+
+@each $clave, $color in $botones {
+    .btn--#{$clave}{
+        background-color: $color;
+    }  
+}
+
+/* extend */
+
+.cambiosH2{
+    background-color: rgb(173, 128, 13);
+    border: 1rem solid rgb(8, 8, 245);
+}
+
+.cambiosH2--Uno{
+    @extend .cambiosH2;
+    border-radius: 0.7rem;
+}
+
+.cambiosH2--Dos{
+    @extend .cambiosH2;
+    border: 0.5rem dashed rgb(216, 19, 19);
+}
+
+/* mixin */
+
+@mixin sizes ($fontSize) {
+    font-size: $fontSize;
+}
+
+.mi_mixin{
+    @include sizes(3rem);
+    color: rgb(255, 255, 255);
+}
