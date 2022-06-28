@@ -1,0 +1,51 @@
+.heroRecetas{
+    background: url(../img/FondoDeHero.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    height: 70vh;
+    
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+}
+
+.h2HeroRecetas{
+    color: rgb(5, 5, 5);
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.divMainRecetas{
+    
+    background-color: rgb(224, 189, 137);
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h3Recetas{
+    font-size: 4rem;
+    font-weight: 400;
+
+}
+
+.pRecetas{
+    max-width: 150rem;
+    padding: 1rem ;
+    font-weight: 500;
+}
+
+.cardBorder{
+    border: solid 1rem rgb(224, 189, 137);
+    border-radius: 2rem;
+}
+
+#fondo{
+    background-color: rgb(224, 189, 137);
+}

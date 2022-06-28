@@ -11,11 +11,6 @@ figure{
 
 }
 
-figcaption{
-    font-size: 1.7rem;
-    padding: 1rem 0rem 2rem 10rem;
-    font-family: 'Nunito Sans', sans-serif;
-}
 
 .divMain{
     background-color: rgb(224, 189, 137);
@@ -34,7 +29,8 @@ figcaption{
 
 .h2Main{ 
     display: flex;
-    font-size: 2.7rem;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
     font-weight: 650;
     height: 12rem;
     padding-top: 2rem;
@@ -42,14 +38,15 @@ figcaption{
 
 .pMain{
     padding: 1rem 0;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 
 #buttonMain{
-    color: black;
+    color: #020202;
+    font-weight: 600;
 }
 
-.videoDeComoHacerPan{ 
+.imgMain2{ 
     margin: auto;
     border: 2rem groove rgb(145, 39, 39);
     border-radius: 1rem;

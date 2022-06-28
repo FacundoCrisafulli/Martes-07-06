@@ -3,11 +3,13 @@
 @import "hero";
 @import "main";
 @import "footer";
+@import "secciones";
+@import "recetas";
 
 /* ---------------------------FUENTE--------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 /*________________________________MOBILE SMARTPHONE________________________________*/
 
 @media(min-width:600px){
@@ -170,8 +172,9 @@
 
     .h2Main{ 
         display: flex;
-        font-size: 2.7rem;
+        font-size: 3rem;
         font-weight: 650;
+        font-family: 'Playfair Display', serif;
         height: 12rem;
         padding-top: 0;
     }
