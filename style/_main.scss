@@ -2,13 +2,6 @@ figure{
     display: flex;
     flex-direction: column;
 
-    .imgMain{
-        border: 1.5rem inset rgb(145, 39, 39);
-        border-radius: 1rem;
-        margin: auto;
-        margin-bottom: 0rem;
-    }
-
 }
 
 
@@ -33,12 +26,12 @@ figure{
     font-family: 'Playfair Display', serif;
     font-weight: 650;
     height: 12rem;
-    padding-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .pMain{
     padding: 1rem 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 #buttonMain{
@@ -46,14 +39,6 @@ figure{
     font-weight: 600;
 }
 
-.imgMain2{ 
-    margin: auto;
-    border: 2rem groove rgb(145, 39, 39);
-    border-radius: 1rem;
-
-    width: auto;
-    height: 28.2rem;
-} 
 
 
 
@@ -65,9 +50,15 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(224, 189, 137);
-        height: 92vh;
     }
+}
+
+.divMainSeccionContacto{
+    background: url(../img/FondoContactos.jpg);
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: center ;
+    height: 92vh;
 }
 
 .divMainSecciones{

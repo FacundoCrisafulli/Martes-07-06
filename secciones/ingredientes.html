@@ -8,16 +8,17 @@
     <meta name="description" content="Explicaremos para que sirven y como funcionan en conjunto los ingredientes en la Panaderia">
     <meta name="keywords" content="Harina, Ingredientes, Azucar, Huevos, Reposteria">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/style.css">
     <title>Ingredientes De Panaderia</title>
 </head>
 
-<body>
+<body id="grilla">
     <header id="inicio">
 
         <section>
 
-            <h1>El Arte De La Panaderia</h1> 
+            <h1 data-aos="fade-left" >El Arte De La Panadería</h1> 
             
             <nav class="navbar navbar-expand-lg navbar-dark  black">
                 <div class="container-fluid">
@@ -39,7 +40,7 @@
                         <a id="colorA" class="nav-link active" href="tutoriales.html">Tutoriales</a>
                       </li>
                       <li class="nav-item">
-                        <a id="colorA" class="nav-link active" href="contactanos.html" >Contactanos</a>
+                        <a id="colorA" class="nav-link active" href="contactanos.html" >Contáctanos</a>
                       </li>
                     </ul>
                   </div>
@@ -50,9 +51,9 @@
 
     </header>
 
-    <section class="heroRecetas">
+    <section id="hero" class="heroRecetas">
 
-      <h2 class="h2HeroRecetas">Ingredientes</h2>
+      <h2 data-aos="fade-up" class="h2HeroRecetas">Ingredientes</h2>
 
     </section>
     
@@ -61,9 +62,9 @@
       <div class="divMainRecetas">
 
         <h3 class="h3Recetas">Datos de importancia sobre los ingredientes</h3>
-        <p class="pRecetas">La calidad de tus productos siempre será una de tus mayores preocupaciones. Tomar en cuenta la selección de los ingredientes que compondrán tu producto final. Si es posible, realizar diferentes pruebas con productos utilizando alternativas de materias primas e ingredientes, siempre es una buena opción para definir diferentes posibilidades y obtener un producto con mayor calidad y ajustado a tu propuesta de valor. Encontrar productos que te ofrezcan beneficios verdaderos, como superior rendimiento, suavidad en el producto y mayor rendimiento en unidades.</p>
+        <p class="pRecetas">La calidad de tus productos siempre será una de tus mayores preocupaciones. Tomar en cuenta la selección de los ingredientes que compondrán tu producto final. Si es posible, realiza diferentes pruebas con productos utilizando alternativas de materias primas e ingredientes, siempre es una buena opción para definir diferentes posibilidades y obtener un producto con mayor calidad y ajustado a tu propuesta de valor, para poder encontrar productos que te ofrezcan beneficios verdaderos, como un rendimiento superior, suavidad en el producto y mayor rendimiento en unidades.</p>
 
-        <p class="pRecetas">En la reposteria es importante conocer bien los ingredientes y como estos interactuan entre si. En esta seccion hemos creado unas fichas que nos podran ayudaran a comprender como funcionan y como poder mejorar con nuestras propias recetas</p>
+        <p class="pRecetas">En la repostería es importante conocer bien los ingredientes y como estos interactúan entre sí. En esta sección hemos creado unas fichas que nos podrán ayudar a comprender como funcionan y como poder mejorar con nuestras propias recetas.</p>
 
       </div>
 
@@ -72,12 +73,12 @@
         <div class="row">
           <div class="col-sm">
 
-            <div class="card w-100 cardBorder">
+            <div data-aos="flip-left" class="card w-100 cardBorder">
               <img src="../img/ingrediente-gluten.jpg" class="card-img-top" alt="Harina">
               <div class="card-body">
-                <h5 class="card-title h3">Harina o Gluten</h5>
-                <p class="card-text text-center">uno de esos ingredientes considerados básicos en cualquier despensa.</p>
-                <a href="#" class="btn btn-primary">VER MAS INFORMACION</a>
+                <h5 class="card-title h3"><strong>Harina o Gluten</strong></h5>
+                <p class="card-text text-center"> Uno de esos ingredientes considerados básicos en cualquier despensa.</p>
+                <a href="#" class="btn btn-primary">VER MÁS INFORMACIÓN</a>
               </div>
             </div>
             
@@ -87,12 +88,12 @@
           
           <div class="col-sm">
 
-            <div class="card w-100 cardBorder">
+            <div data-aos="flip-left" class="card w-100 cardBorder">
               <img src="../img/ingrediente-huevos.jpg" class="card-img-top" alt="Huevos">
               <div class="card-body">
-                <h5 class="card-title h3">Huevos</h5>
-                <p class="card-text text-center"> ya sea cualquier tamaño, tienen un papel muy importante cuando se trata de preparar pasteles, galletas, merengues y cremas pasteleras, pues son los encargados de proporcionar estructura y estabilidad a las mezclas, así como de agregar humedad a los pasteles. </p>
-                <a href="#" class="btn btn-primary">VER MAS INFORMACION</a>
+                <h5 class="card-title h3"><strong>Huevos</strong></h5>
+                <p class="card-text text-center"> Ya sea cualquier tamaño, tienen un papel muy importante cuando se trata de preparar pasteles, galletas, merengues y cremas pasteleras, pues son los encargados de proporcionar estructura y estabilidad a las mezclas, así como de agregar humedad a los pasteles. </p>
+                <a href="#" class="btn btn-primary">VER MÁS INFORMACIÓN</a>
               </div>
             </div>
             
@@ -102,12 +103,12 @@
 
           <div class="col-sm">
 
-            <div class="card w-100 cardBorder">
+            <div data-aos="flip-left" class="card w-100 cardBorder">
               <img src="../img/ingrediente-azucar.jpg" class="card-img-top" alt="azucar">
               <div class="card-body">
-                <h5 class="card-title h3">Azucar</h5>
-                <p class="card-text text-center"> es un endulzante de origen natural, sólido, cristalizado, constituido esencialmente por cristales sueltos de sacarosa, obtenidos a partir de la caña de azúcar o de la remolacha azucarera mediante procedimientos industriales apropiados</p>
-                <a href="#" class="btn btn-primary">VER MAS INFORMACION</a>
+                <h5 class="card-title h3"><strong>Azúcar</strong></h5>
+                <p class="card-text text-center"> Es un endulzante de origen natural, sólido, cristalizado, constituido esencialmente por cristales sueltos de sacarosa, obtenidos a partir de la caña de azúcar o de la remolacha azucarera mediante procedimientos industriales apropiados</p>
+                <a href="#" class="btn btn-primary">VER MÁS INFORMACIÓN</a>
               </div>
             </div>
             
@@ -132,6 +133,12 @@
 </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+  </body>
 
 </html>

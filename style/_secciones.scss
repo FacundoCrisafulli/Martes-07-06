@@ -2,6 +2,7 @@
     background: url(../img/FondoDeHero.jpg);
     background-size: cover;
     background-position-y: bottom;
+    background-position-x: center ;
     height: 70vh;
     
     display: flex;
@@ -11,7 +12,8 @@
 }
 
 .h2HeroRecetas{
-    color: rgb(5, 5, 5);
+    color: rgb(224, 189, 137);
+    margin: 3rem;
     font-size: 5rem;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
@@ -31,7 +33,7 @@
 
 .h3Recetas{
     font-size: 4rem;
-    font-weight: 400;
+    font-weight: 600;
 
 }
 

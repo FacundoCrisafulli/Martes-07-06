@@ -97,18 +97,18 @@ h1 {
 }
 
 .h2Hero {
-  color: #020202;
-  padding-top: 2rem;
+  color: #e0bd89;
+  margin: 2rem;
   font-size: 5rem;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
 }
 
 .pHero {
-  color: #020202;
+  color: #e0bd89;
   padding: 1rem 1rem 2.5rem 1rem;
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   margin: 0 auto;
   max-width: 100rem;
@@ -127,13 +127,6 @@ figure {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-figure .imgMain {
-  border: 1.5rem inset #912727;
-  border-radius: 1rem;
-  margin: auto;
-  margin-bottom: 0rem;
 }
 
 .divMain {
@@ -173,25 +166,17 @@ figure .imgMain {
   font-family: 'Playfair Display', serif;
   font-weight: 650;
   height: 12rem;
-  padding-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .pMain {
   padding: 1rem 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 #buttonMain {
   color: #020202;
   font-weight: 600;
-}
-
-.imgMain2 {
-  margin: auto;
-  border: 2rem groove #912727;
-  border-radius: 1rem;
-  width: auto;
-  height: 28.2rem;
 }
 
 /* ---------------------------otros Main--------------------------- */
@@ -206,7 +191,13 @@ main form {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #e0bd89;
+}
+
+.divMainSeccionContacto {
+  background: url(../img/FondoContactos.jpg);
+  background-size: cover;
+  background-position-y: top;
+  background-position-x: center;
   height: 92vh;
 }
 
@@ -239,6 +230,7 @@ footer li:hover {
   background: url(../img/FondoDeHero.jpg);
   background-size: cover;
   background-position-y: bottom;
+  background-position-x: center;
   height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -252,7 +244,8 @@ footer li:hover {
 }
 
 .h2HeroRecetas {
-  color: #050505;
+  color: #e0bd89;
+  margin: 3rem;
   font-size: 5rem;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
@@ -279,7 +272,7 @@ footer li:hover {
 
 .h3Recetas {
   font-size: 4rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .pRecetas {
@@ -324,7 +317,7 @@ footer li:hover {
 
 /* ---------------------------FUENTE--------------------------- */
 /*________________________________MOBILE SMARTPHONE________________________________*/
-@media (min-width: 600px) {
+@media (min-width: 360px) {
   /* ---------------------------DECLARACION DE AREA --------------------------- */
   header {
     -ms-grid-row: 1;
@@ -382,6 +375,36 @@ footer li:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }
+  .imgMain {
+    border: 1.5rem inset #912727;
+    border-radius: 1rem;
+    margin: 0rem;
+  }
+  .imgMain2 {
+    margin: 0rem;
+    border: 2rem groove #912727;
+    border-radius: 1rem;
+    width: auto;
+    height: 28.2rem;
+  }
+  .heroRecetas {
+    height: 50vh;
+  }
+  .h2HeroRecetas {
+    font-size: 3.5rem;
+  }
+  .hero {
+    height: 73vh;
+  }
+  .h2Hero {
+    font-size: 3.5rem;
+  }
+  .h3Recetas {
+    font-size: 3rem;
+  }
+  .pHero {
+    font-size: 2rem;
+  }
 }
 
 /*________________________________MOBILE TABLET________________________________*/
@@ -399,6 +422,42 @@ footer li:hover {
     font-size: 1.7rem;
     padding: 1rem 0rem 2rem 19rem;
     font-family: 'Nunito Sans', sans-serif;
+  }
+  .imgMain {
+    border: 1.5rem inset #912727;
+    border-radius: 1rem;
+    margin: auto;
+  }
+  .imgMain2 {
+    margin: auto;
+    border: 2rem groove #912727;
+    border-radius: 1rem;
+    width: auto;
+    height: 28.2rem;
+  }
+  .hero {
+    height: 73vh;
+  }
+  .h2HeroRecetas {
+    font-size: 4.5rem;
+  }
+  .h2Hero {
+    font-size: 4.5rem;
+  }
+  .pHero {
+    font-size: 2.5rem;
+  }
+  .h2Main {
+    padding-top: 2rem;
+  }
+  .pMain {
+    font-size: 2.5rem;
+  }
+  .h3Recetas {
+    font-size: 4rem;
+  }
+  .pRecetas {
+    font-size: 2.5rem;
   }
 }
 
@@ -480,7 +539,25 @@ footer li:hover {
     font-weight: 650;
     font-family: 'Playfair Display', serif;
     height: 12rem;
-    padding-top: 0;
+    padding-top: 2rem;
+  }
+  .hero {
+    height: 75vh;
+  }
+  .h2HeroRecetas {
+    font-size: 5rem;
+  }
+  .h2Hero {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .heroRecetas {
+    height: 75vh;
+  }
+  .hero {
+    height: 92vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
